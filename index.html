@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
 
-<head>
-	<title>Parcel Sandbox</title>
-	<meta charset="UTF-8" />
-</head>
+  <body>
+    <div id="app"></div>
 
-<body>
-	<div id="app"></div>
+    <!-- <button class="test" id="btn">Click me</button>
+		<button class="test" id="btn1">Click me1</button> -->
 
-	<script src="src/index.js">
-	</script>
-</body>
+    <!-- Onlick -->
+    <!-- <form onclick="console.log('form')">
+      FORM
+      <div onclick="console.log('div')">
+        div
+        <p onclick="console.log('p')">p</p>
+      </div>
+		</form> -->
 
+    <form id="form">
+      form
+      <div id="div" data-id="GetAttribute">
+        div
+        <p id="p">p</p>
+      </div>
+    </form>
+    <ul id="dataId">
+      <li data-name="a">a</li>
+      <li data-name="b">b</li>
+      <li data-name="c">c</li>
+      <li data-name="d">d</li>
+    </ul>
+    <script src="src/index.js"></script>
+  </body>
 </html>
